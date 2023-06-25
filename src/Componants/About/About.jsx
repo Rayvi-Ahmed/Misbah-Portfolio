@@ -9,9 +9,9 @@ const About = () => {
     })
     return (
         <div className="py-8 lg:py-24 lg:h-screen flex items-center text-white" ref={ref} id="about">
-            <div className='flex'>
+            <div className='container mx-auto'>
                 <div
-                    className='container mx-auto lg:flex items-center'>
+                    className='flex flex-col lg:flex-row gap-y-8 lg:items-center'>
                     <motion.div
                         variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
 

@@ -21,19 +21,19 @@ const Navbar = () => {
                         className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
                         <FaUser></FaUser>
                     </Link>
+                    <Link to='service'
+                        smooth={true}
+                        spy={true}
+                        activeClass='active'
+                        className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
+                        <FaClipboard></FaClipboard>
+                    </Link>
                     <Link to='project'
                         smooth={true}
                         spy={true}
                         activeClass='active'
                         className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
                         <FaBriefcase></FaBriefcase>
-                    </Link>
-                    <Link to='contact'
-                        smooth={true}
-                        spy={true}
-                        activeClass='active'
-                        className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
-                        <FaClipboard></FaClipboard>
                     </Link>
                     <Link className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
                         <FaChartBar></FaChartBar>
