@@ -1,0 +1,46 @@
+[
+    {
+        "details": "This is a Quiz Website ",
+        "id": 1,
+        "details2": "I made this website for QNA",
+        "details3": "It's made by React-Js",
+        "details4": "Ki-twind Toastify Reachart",
+        "technology": "HTML CSS, JAVASCRIPT, REACTJS, Tailwind",
+        "picture": "https://i.ibb.co/gZd1xjN/quizo-website.png",
+        "name": "Quizo",
+        "liveLink": "https://quizo-by-mahbuba.netlify.app/"
+    },
+    {
+        "details": "E-learning platform",
+        "id": 2,
+        "details2": "where different types of courses are offered.",
+        "details3": "Private Route to secure the course details.",
+        "details4": "Fully Responsive WEBSITE",
+        "technology": "HTML CSS, JAVASCRIPT, REACTJS, NODEJS, EXPRESSJS, MONGODB, DAISYUI, VERCEL, FIREBASE",
+        "picture": "https://i.ibb.co/LhWLqMK/golearn-website.png",
+        "name": "goLearn",
+        "liveLink": "https://golearn-69cb4.web.app/"
+    },
+    {
+        "details": "Clients provides review oof any services",
+        "id": 3,
+        "details2": "can see others reviews.",
+        "details3": "update his/her review.",
+        "details4": "Route name changes dynamically.",
+        "technology": "HTML, CSS, JAVASCRIPT,REACTJS, NODEJS, EXPRESSJS,MONGODB, DAISYUI, VERCEL, FIREBASE,JWT, REACT-PHOTO-VIEW.",
+        "picture": "https://i.ibb.co/cw22c3y/muslimah.png",
+        "name": "Muslimah",
+        "liveLink": "https://muslimah-a6860.web.app/"
+    },
+    {
+        "details": "People can Resell There Products",
+        "id": 4,
+        "details2": "Can Advertise Products.",
+        "details3": " Seller and Buyer Mode Dashboard",
+        "details4": "Admin role.",
+        "technology": "HTML, CSS, JAVASCRIPT,REACTJS, NODEJS, EXPRESSJS,MONGODB, DAISYUI, VERCEL, FIREBASE,JWT, REACT-PHOTO-VIEW.",
+        "picture": "https://i.ibb.co/93QBQBx/home-store.png",
+        "name": "home-store",
+        "liveLink": "https://home-store-a7bbd.web.app/"
+    }
+]

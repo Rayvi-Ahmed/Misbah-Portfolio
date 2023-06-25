@@ -7,7 +7,9 @@ const Header = () => {
                     <a href="#">
                         <h1 className="text-3xl text-orange-500 font-bold">Misbah</h1>
                     </a>
-                    <button className="btn p-2 rounded-lg">Download Resume</button>
+                    <div>
+                        <a href="https://drive.google.com/file/d/1AZQVTFOySgDJ9PBp-l6V_hwSruxKay_e/view?usp=sharing"><button className="btn p-2 rounded-lg">Download Resume</button></a>
+                    </div>
                 </div>
 
             </div>

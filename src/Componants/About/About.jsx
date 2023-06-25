@@ -13,12 +13,12 @@ const About = () => {
                 <div
                     className='container mx-auto lg:flex items-center'>
                     <motion.div
-                        variants={fadeIn('right', 0.5)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+                        variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
 
                         className='bg-about bg-contain bg-no-repeat flex-1 h-[640px] mix-blend-lighten bg-top'></motion.div>
 
                     <motion.div
-                        variants={fadeIn('left', 0.5)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+                        variants={fadeIn('left', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
 
                         className='flex-1'>
                         <h1 className='text-accent font-semibold text-4xl mb-4'>About Me,</h1>
@@ -32,7 +32,7 @@ const About = () => {
                                         start={0} end={1} duration={3}
                                     >
 
-                                    </CountUp> : null}+
+                                    </CountUp> : null} +
                                 </div>
                                 <div className='font-bold text-sm tracking-[2px]'>
                                     years of <br></br>
@@ -45,7 +45,7 @@ const About = () => {
                                         start={0} end={9} duration={3}
                                     >
 
-                                    </CountUp> : null}+
+                                    </CountUp> : null} +
                                 </div>
                                 <div className='font-bold text-sm tracking-[2px]'>
                                     My total <br></br>
@@ -58,7 +58,7 @@ const About = () => {
                                         start={0} end={5} duration={3}
                                     >
 
-                                    </CountUp> : null}+
+                                    </CountUp> : null} +
                                 </div>
                                 <div className='font-bold text-sm tracking-[2px]'>
                                     Stisfied <br></br>
