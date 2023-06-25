@@ -1,16 +1,25 @@
 import { TypeAnimation } from 'react-type-animation';
 import image from '../../assets/avatar.svg'
 import { FaLinkedin, FaFacebook, FaGithub } from 'react-icons/fa';
+import { motion } from 'framer-motion'
+import { fadeIn } from './Variants'
+
 const Banner = () => {
     return (
 
 
-        <div className=" py-8 lg:py-24 lg:h-screen flex items-center text-white my-8" id="home">
+        <div className='min-h-[85vh] lg:min-[78vh] flex items-center text-white' id="home">
             <div className='container mx-auto'>
                 <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center'>
                     <div className='flex-1 text-center lg:text-left'>
-                        <h1 className='text-[50px] lg:text-[70px] font-bold leading-[0.8] mb-5 uppercase'>Misbah uddin</h1>
-                        <div className='mb-6 text-[36px] lg:text-[60px] font-semibold uppercase leading-[1]'>
+                        <motion.h1 variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+
+                            className='text-[50px] lg:text-[70px] font-bold leading-[0.8] mb-5 uppercase'>Misbah uddin</motion.h1>
+                        <motion.div
+                            variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+
+
+                            className='mb-6 text-[36px] lg:text-[60px] font-semibold uppercase leading-[1]'>
                             <span className='mr-4'>Im a</span>
                             <TypeAnimation
                                 sequence={[
@@ -29,7 +38,7 @@ const Banner = () => {
 
                             >
                             </TypeAnimation>
-                        </div>
+                        </motion.div>
 
                         <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolorum explicabo expedita repudiandae. Officia repellendus rem amet ut qui aspernatur saepe perferendis dolores sint voluptatem incidunt nihil asperiores autem enim necessitatibus, a porro nam maxime nesciunt et eos? Voluptatibus, vero?</p>
 
@@ -52,7 +61,7 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='hidden flex-1 lg:flex max-w-[320px] lg:max-w-[480px]'>
                         <img src={image} alt="" />
                     </div>
                 </div>
