@@ -28,7 +28,7 @@ const Service = () => {
     ]
 
     return (
-        <div className="py-8 lg:py-24 lg:h-screen flex items-center text-white" id="service">
+        <div className="py-8 lg:py-24 lg:h-screen flex items-center lg:mb-10 text-white" id="service">
             <div className='container mx-auto'>
                 <div className='flex flex-col lg:flex-row'>
                     <motion.div
@@ -40,7 +40,7 @@ const Service = () => {
 
                     </motion.div>
                     <motion.div
-                        variants={fadeIn('up', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+                        variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
 
                         className='flex-1'>
                         {

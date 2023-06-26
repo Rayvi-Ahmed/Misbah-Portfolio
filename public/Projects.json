@@ -9,7 +9,9 @@
         "technology": " HTML, CSS, JAVASCRIPT,REACTJS, NODEJS, EXPRESSJS,MONGODB, DAISYUI, VERCEL, FIREBASE,JWT, REACT-PHOTO-VIEW",
         "picture": "https://i.ibb.co/H29VB7v/Summer-Rythm.png",
         "name": "Music Rythm",
-        "liveLink": "https://auth-lab-1d89f.web.app/"
+        "liveLink": "https://auth-lab-1d89f.web.app/",
+        "gitClient": "https://github.com/Rayvi-Ahmed/summer-rythm-client",
+        "gitServer": "https://github.com/Rayvi-Ahmed/Summer-rythm-server"
     },
     {
         "details": "A MERN stack based kids Toy marketplace",
@@ -21,7 +23,9 @@
         "technology": "HTML CSS, JAVASCRIPT, REACTJS,FIREBASE, NODEJS, EXPRESSJS, MONGODB, DAISYUI, VERCEL, FIREBASE",
         "picture": "https://i.ibb.co/QNkRPQx/Kiddy-Teddy.png",
         "name": "Kiddy Teddy",
-        "liveLink": "https://kiddy-teddy.web.app/"
+        "liveLink": "https://kiddy-teddy.web.app/",
+        "gitClient": "https://github.com/Rayvi-Ahmed/kiddy-teddy-client",
+        "gitServer": "https://github.com/Rayvi-Ahmed/kiddy-teddy-server"
     },
     {
         "details": "This is MERN stack based italian food website",
@@ -32,7 +36,9 @@
         "technology": "HTML, CSS, JAVASCRIPT,REACTJS, NODEJS, EXPRESSJS,MONGODB, DAISYUI, VERCEL, FIREBASE",
         "picture": "https://i.ibb.co/cJhJ4fc/Foodmode.png",
         "name": "Foodmode",
-        "liveLink": "https://chef-auth-3cbee.web.app/"
+        "liveLink": "https://chef-auth-3cbee.web.app/",
+        "gitClient": "https://github.com/Rayvi-Ahmed/Foodmode-client",
+        "gitServer": ""
     },
     {
         "details": "This Is Job portal based full stack website",
@@ -43,6 +49,8 @@
         "technology": "HTML, CSS, JAVASCRIPT,REACTJS, NODEJS, EXPRESSJS,MONGODB, DAISYUI, VERCEL, FIREBASE",
         "picture": "https://i.ibb.co/pKSBW0L/Job-portal-site-assignment-09-P-01.png",
         "name": "Career Portal",
-        "liveLink": "https://home-store-a7bbd.web.app/"
+        "liveLink": "https://home-store-a7bbd.web.app/",
+        "gitClient": "https://github.com/Rayvi-Ahmed/summer-rythm-client",
+        "gitServer": "https://github.com/Rayvi-Ahmed/Foodmode-server"
     }
 ]
