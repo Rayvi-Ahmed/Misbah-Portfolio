@@ -8,16 +8,23 @@ const Coantact = () => {
             <div className="container mx-auto">
                 <div className='flex flex-col lg:flex-row'>
                     <div className='flex-1'>
-                        <div>
+                        <motion.div
+                            variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+
+
+                        >
                             <h4 className='text-xl uppercase text-accent font-medium mb-2'>Get In touch</h4>
                             <h2 className='text-[45px] uppercase lg:[90px] leading-none mb-12'>Let's work <br></br>together</h2>
 
-                        </div>
+                        </motion.div>
                     </div>
 
 
 
-                    <form className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start' >
+                    <motion.form
+                        variants={fadeIn('right', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+
+                        className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start' >
                         <input className='bg-transparent border-b outline-none w-full py-3 placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your name' />
 
                         <input className='bg-transparent border-b outline-none w-full py-3 placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your email' />
@@ -28,7 +35,7 @@ const Coantact = () => {
                         <button className='btn btn-md'>Send Massage</button>
 
 
-                    </form>
+                    </motion.form>
                 </div>
 
 
