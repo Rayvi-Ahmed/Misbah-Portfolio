@@ -35,7 +35,12 @@ const Navbar = () => {
                         className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
                         <FaBriefcase></FaBriefcase>
                     </Link>
-                    <Link className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
+                    <Link
+                        to='contact'
+                        smooth={true}
+                        spy={true}
+                        activeClass='active'
+                        className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
                         <FaChartBar></FaChartBar>
                     </Link>
                 </div>

@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import ProjectData from "../ProjectData/ProjectData";
+import { fadeIn } from '../../Varient/Variants'
+import { motion } from 'framer-motion'
 
 
 const Projects = () => {
@@ -13,7 +15,10 @@ const Projects = () => {
 
 
     return (
-        <div className=" py-8 lg:py-24 lg:h-screen flex items-center text-white" id="project">
+        <motion.div
+            variants={fadeIn('down', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+
+            className=" py-16  lg:py-8 lg:h-screen flex items-center text-white" id="project">
             <div className="container mx-auto">
                 <div>
                     <h1 className="text-accent font-primary font-bold text-[50px] lg:text-[65px] lg:py-8 py-6 flex flex-col lg:text-center">My Projects</h1>
@@ -28,7 +33,7 @@ const Projects = () => {
 
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
