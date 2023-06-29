@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-        <div className="">
+        <div className="py-5">
             <div className="container mx-auto">
                 <div className="flex justify-between items-center">
                     <a href="#">
