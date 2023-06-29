@@ -40,7 +40,7 @@ const Banner = () => {
 
                         <motion.p
                             variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
-                            className='mb-6 lg:max-w-[80%]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolorum explicabo expedita repudiandae. Officia repellendus rem amet ut qui aspernatur saepe perferendis dolores sint voluptatem incidunt nihil asperiores autem enim necessitatibus, a porro nam maxime nesciunt et eos? Voluptatibus, vero?</motion.p>
+                            className='mb-6 lg:max-w-[80%]'>Driven and ambitious React junior front-end developer with a passion for creating dynamic and engaging user interfaces. With a solid foundation in HTML, CSS, and JavaScript, I possess a strong understanding of React's core principles and its ecosystem. Eager to expand my skillset and contribute to innovative projects, I bring a collaborative mindset and a willingness to learn from experienced mentors. Committed to delivering high-quality code and continuously improving my craft, I am poised to make a positive impact in the world of front-end development</motion.p>
 
                         <motion.div
                             variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}

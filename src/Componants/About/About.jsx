@@ -22,8 +22,8 @@ const About = () => {
 
                         className='flex-1'>
                         <h1 className='text-accent font-semibold text-4xl mb-4'>About Me,</h1>
-                        <h3 className='font-semibold text-3xl'>Im a junior front end web developer with 1 years of experiance</h3>
-                        <p className='font-semibold text-lg mb-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolore! Vero, quam aliquam? Obcaecati labore laboriosam, repellendus officiis totam magni?</p>
+                        <h3 className='font-semibold text-3xl lg:mb-6'>Im a junior front end web developer with 1 years of experiance</h3>
+                        <p className='font-semibold text-lg mb-5'>Having worked in React front-end development for over a year, I bring valuable experience and expertise to the table. I have a strong passion for creating user-friendly and visually appealing interfaces.i have completaed web development course from Proggramming Hero. My goal is to consistently deliver exceptional results by combining the latest technology with intuitive user experiences</p>
 
                         <div className='flex gap-x-8'>
                             <div>

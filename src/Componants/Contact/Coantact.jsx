@@ -2,6 +2,7 @@ import { fadeIn } from '../../Varient/Variants'
 import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Swal from 'sweetalert2';
 
 
 const Coantact = () => {
@@ -14,7 +15,14 @@ const Coantact = () => {
             .then((result) => {
                 console.log(result.text);
                 if (result.text) {
-                    alert('email send successfully')
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Email send sucessfully !',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    form.reset()
 
                 }
             }, (error) => {

@@ -37,8 +37,8 @@ const Service = () => {
                         className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0 '>
 
 
-                        <h1 className='font-semibold text-4xl text-accent mb-6'>What i do</h1>
-                        <h3 className='font-semibold text-lg max-w-[456px] mb-16'>Im a junior front end web developer with 1 years of experiance</h3>
+                        <h1 className='font-bold text-3xl text-accent p-2 inline  mb-6'>What I do</h1>
+                        <h3 className='font-semibold text-lg max-w-[456px] mb-16'>I have doing some full stack & front end projehct during my learinng period.Building full stack project using technologes & some development tools. Also implement firebase authentication, JWT to secured route. As well as implement payment gatgway one of my projects. </h3>
                         <button className='btn p-2 rounded-lg'>Hire me </button>
 
                     </motion.div>

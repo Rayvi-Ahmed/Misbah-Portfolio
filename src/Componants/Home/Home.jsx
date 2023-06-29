@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Coantact from "../Contact/Coantact";
 import Projects from "../Projects/Projects";
 import Service from "../Service/Service";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <About></About>
             <Service></Service>
             <Projects></Projects>
+            <Skills></Skills>
             <Coantact></Coantact>
         </div>
     );

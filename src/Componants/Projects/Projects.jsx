@@ -21,7 +21,7 @@ const Projects = () => {
             className=" py-16  lg:py-8 lg:h-screen flex items-center text-white" id="project">
             <div className="container mx-auto">
                 <div>
-                    <h1 className="text-accent font-primary font-bold text-[50px] lg:text-[65px] lg:py-8 py-6 flex flex-col lg:text-center">My Projects</h1>
+                    <h1 className='font-bold text-3xl text-accent  border-b-2 border-gray-500 p-2 inline shadow-purple-400'>My Projects</h1>
                 </div>
                 <div className="grid grid-cols lg:h-screen lg:grid-cols-2 gap-4 my-4 lg:my-8">
                     {

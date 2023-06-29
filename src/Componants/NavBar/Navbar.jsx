@@ -1,4 +1,5 @@
 import { FaHome, FaClipboard, FaBriefcase, FaChartBar, FaUser } from 'react-icons/fa';
+import { GiSkills } from 'react-icons/gi'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -34,6 +35,13 @@ const Navbar = () => {
                         activeClass='active'
                         className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
                         <FaBriefcase></FaBriefcase>
+                    </Link>
+                    <Link to='sakil'
+                        smooth={true}
+                        spy={true}
+                        activeClass='active'
+                        className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center hover:text-purple-500'>
+                        <GiSkills></GiSkills>
                     </Link>
                     <Link
                         to='contact'
