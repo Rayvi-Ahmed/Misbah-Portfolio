@@ -1,8 +1,9 @@
 import { TypeAnimation } from 'react-type-animation';
-import image from '../../assets/avatar.svg'
+import image from '../../assets/bannerGlass.png'
 import { FaLinkedin, FaFacebook, FaGithub } from 'react-icons/fa';
 import { motion } from 'framer-motion'
 import { fadeIn } from '../././././../Varient/Variants'
+import { Link } from 'react-scroll'
 
 const Banner = () => {
     return (
@@ -46,21 +47,33 @@ const Banner = () => {
                             variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
 
                             className='flex max-w-max gap-x-6 items-center lg:mb-6'>
-                            <button className="btn p-2 rounded-lg">Contact Me</button>
-                            <a href="#" className='text-gradient btn-link ml-4'>My Portfolio</a>
+                            <Link to='contact'
+                                smooth={true}
+                                spy={true}
+                                activeClass='active'
+                            ><button className="btn p-2 rounded-lg">Contact Me</button></Link>
+                            <Link
+                                to='project'
+                                smooth={true}
+                                spy={true}
+                                activeClass='active'
+
+                            >
+                                <a href="#" className='text-gradient btn-link ml-4'>My Portfolio</a>
+                            </Link>
                         </motion.div>
 
                         <motion.div
                             variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
 
-                            className='flex max-w-max gap-x-6 mx-auto lg:mx-0'>
-                            <a href="#">
+                            className='flex max-w-max gap-x-6 mx-auto lg:mx-0 lg:text-3xl'>
+                            <a href="https://facebook.com/rayvikhan">
                                 <FaFacebook></FaFacebook>
                             </a>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/seo-expert-rayvi-ahmed-5b13a31a5/">
                                 <FaLinkedin></FaLinkedin>
                             </a>
-                            <a href="#">
+                            <a href="https://github.com/Rayvi-Ahmed">
                                 <FaGithub></FaGithub>
                             </a>
 
@@ -71,7 +84,7 @@ const Banner = () => {
                         variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
 
                         className='hidden flex-1 lg:flex max-w-[320px] lg:max-w-[480px]'>
-                        <img src={image} alt="" />
+                        <img className='w-[600px] h-[550px] border-b-4 rounded-full border-indigo-500' src={image} alt="" />
                     </motion.div>
                 </div>
 
