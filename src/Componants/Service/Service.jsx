@@ -44,7 +44,7 @@ const Service = () => {
                     </motion.div>
 
                     <motion.div
-                        variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
+                        variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }}
 
                         className='flex-1'>
                         {
